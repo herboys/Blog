@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/herboys",
+    base: "/blog",
     lang: "zh-CN",
     title: "小小胖的前端自救之路",
     description: "欢迎来到小小胖的前端自救之路的博客,在这里学习笔记，记录学习历程，分享学习总结！",
@@ -35,7 +35,18 @@ module.exports = {
             ],
             React: [
                 {
-                    text: "React",
+                    text: "核心概念",
+                    children: [
+                        {text: "React", link: "/React/1"},
+                    ],
+                },
+                {
+                    text: "高阶索引",
+                    children: [
+                        {text: "React", link: "/React/1"},
+                    ],
+                }, {
+                    text: "Hook",
                     children: [
                         {text: "React", link: "/React/1"},
                     ],

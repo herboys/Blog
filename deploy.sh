@@ -15,6 +15,6 @@ git config --global user.name "herboys"
 git init
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/herboys/herboys.git master:pages
+git push -f https://github.com/herboys/blog.git master:pages
 
 cd -
