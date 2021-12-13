@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.aed67b48.js";const m='{"title":"","description":"","frontmatter":{},"relativePath":"Vue/index.md","lastUpdated":1639366269314}',s={},n=o("p",null,"#Vue",-1),r=[n];function c(d,_,p,i,l,u){return a(),t("div",null,r)}var x=e(s,[["render",c]]);export{m as __pageData,x as default};
