@@ -1,5 +1,5 @@
 module.exports = {
-    base: "/",
+    base: "/herboys",
     lang: "zh-CN",
     title: "小小胖的前端自救之路",
     description: "欢迎来到小小胖的前端自救之路的博客,在这里学习笔记，记录学习历程，分享学习总结！",
