@@ -6,8 +6,8 @@ module.exports = {
     themeConfig: {
         nav: [
             {text: "首页", link: "/"},
-            {text: "javascript", link: "/javascript/"},
-            {text: "Vue", link: "/Vue/index"},
+            {text: "javascript", link: "/javascript/index"},
+            // {text: "Vue", link: "/Vue/index"},
             {text: "React", link: "/React/index"},
             {text: "数据结构与算法", link: "/algorithm/index"},
             {
@@ -19,20 +19,24 @@ module.exports = {
         sidebar: {
             javascript: [
                 {
-                    text: "深入javascript",
+                    text: "js基础",
                     children: [
-                        {text: "JavaScript深入之执行上下文", link: "/javascript/1"},
+                        {text: "事件循环", link: "/javascript/1"},
+                        {text: "垃圾回收,闭包", link: "/javascript/1"},
+                        {text: "原型链,继承", link: "/javascript/1"},
+                        {text: "异步解决方案", link: "/javascript/1"},
                     ],
                 },
+                {text: "性能优化", link: "/javascript/性能优化"},
             ],
-            Vue: [
-                {
-                    text: "Vue",
-                    children: [
-                        {text: "Vue", link: "/Vue/1"},
-                    ],
-                },
-            ],
+            // Vue: [
+            //     {
+            //         text: "Vue",
+            //         children: [
+            //             {text: "Vue", link: "/Vue/1"},
+            //         ],
+            //     },
+            // ],
             React: [
                 {
                     text: "核心概念",
@@ -48,7 +52,14 @@ module.exports = {
                 }, {
                     text: "Hook",
                     children: [
-                        {text: "React", link: "/React/1"},
+                        {text: "useState", link: "/React/useState"},
+                        {text: "useEffect", link: "/React/useEffect"},
+                        {text: "useLayoutEffect", link: "/React/useLayoutEffect"},
+                        {text: "useContext", link: "/React/useContext"},
+                        {text: "useReducer", link: "/React/useReducer"},
+                        {text: "useRef", link: "/React/useRef"},
+                        {text: "useCallback", link: "/React/useCallback"},
+                        {text: "useMemo", link: "/React/useMemo"},
                     ],
                 },
             ],
