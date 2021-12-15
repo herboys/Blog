@@ -20,13 +20,27 @@ module.exports = {
             javascript: [
                 {
                     text: "js基础",
+
                     children: [
-                        {text: "事件循环", link: "/javascript/1"},
+                        {text: "原型链", link: "/javascript/原型链"},
+                        {text: "继承的实现", link: "/javascript/继承的实现"},
+                        {text: "数据类型", link: "/javascript/数据类型"},
+                        {text: "var-const-let对比", link: "/javascript/var-const-let对比"},
+                        {text: "es-next-最新规范", link: "/javascript/es-next-最新规范"},
+                        {text: "new的过程", link: "/javascript/new的过程"},
+                        {text: "this 指向问题", link: "/javascript/数据类型"},
+                        {text: "bind 实现方式", link: "/javascript/数据类型"},
+                        {text: "闭包", link: "/javascript/数据类型"},
+                        {text: "事件循环【重点】", link: "/javascript/1"},
+                        {text: "类型判断", link: "/javascript/1"},
+                        {text: "手写Promise", link: "/javascript/1"},
                         {text: "垃圾回收,闭包", link: "/javascript/1"},
                         {text: "原型链,继承", link: "/javascript/1"},
                         {text: "异步解决方案", link: "/javascript/1"},
                     ],
                 },
+
+
                 {text: "性能优化", link: "/javascript/性能优化"},
             ],
             // Vue: [
